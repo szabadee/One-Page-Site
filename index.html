@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&subset=latin-ext" rel="stylesheet">
+    <title>Just speed!</title>
+</head>
+
+<body class="bg">
+
+    <div class="header vertical-align">
+        <a class="main-menu" href="http://www.tesla.com">tesla</a>
+        <a class="main-menu mobil" href="http://www.porsche.com">porsche</a>
+        <a class="main-menu" href="http://www.bmw.com">bmw</a>
+        <a class="main-menu" href="http://www.lexus.com">lexus</a>
+        <a class="main-menu mobil" href="http://www.toyota.com">toyota</a>
+        <a class="main-menu mobil" href="http://www.astonmartin.com">aston</a>
+        <a class="main-menu mobil" href="http://www.jaguar.com">jaguar</a>
+    </div>
+
+    <div class="center title">Innovataion & Topspeed
+        <div>
+            <a class="button" href="http://www.lexus.hu">Test drive</a>
+            <a class="button" href="http://www.tesla.hu">Buying</a>
+        </div>
+    </div>
+
+    <div class="footer vertical-align">kreativ.szabadi &copy; <span id="year">current year</span> – All rights
+        reserved!</div>
+
+    <script>
+        let d = new Date();
+        let n = d.getFullYear();
+        document.getElementById("year").innerHTML = n;
+    </script>
+
+</body>
+
+</html>
